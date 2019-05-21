@@ -35,7 +35,6 @@
 
 
 
-
     <?php require  __DIR__ .'/parts/footer.php'?>
     </body>
 

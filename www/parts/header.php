@@ -6,5 +6,6 @@
         <li class="top-menu__item"><a href="?page=cat-children">Котята</a></li>
         <li class="top-menu__item"><a href="?page=cat-family">Всё кошачье семейство</a></li>
         <li class="top-menu__item"><a href="?page=cat-dinner">Коты кушают</a></li>
+        <li class="top-menu__item"><a href="?page=cat-gallery">Галерея</a></li>
     </ul>
 </header>

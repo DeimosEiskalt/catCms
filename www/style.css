@@ -19,7 +19,7 @@
 .top-menu__item {
     display: inline-block;
     text-transform: uppercase;
-    font: 25px Arial, sans-serif;
+    font: 20px Arial, sans-serif;
     color: #fff7e5;
 }
 .top-menu__item + .top-menu__item {
@@ -34,4 +34,8 @@
 }
 .page-content {
     margin: 20px 50px;
+}
+.gallery-img {
+    display: inline-block;
+    margin: 10px;
 }
