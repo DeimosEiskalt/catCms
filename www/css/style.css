@@ -35,7 +35,10 @@
 .page-content {
     margin: 20px 50px;
 }
-.gallery-img {
+.gallery {
     display: inline-block;
     margin: 10px;
+}
+.gallery_img {
+    max-height: 150px;
 }

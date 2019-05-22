@@ -24,7 +24,8 @@
         <meta name="description" content="<?=$pageInfo["descr"];?>" />
 
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />
     </head>
 
     <body>
@@ -36,6 +37,15 @@
 
 
     <?php require  __DIR__ .'/parts/footer.php'?>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.fancybox-gallery').fancybox();
+        });
+    </script>
+
     </body>
 
 <?php
